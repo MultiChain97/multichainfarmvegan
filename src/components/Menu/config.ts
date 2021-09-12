@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.veganswap.finance/',
+        href: 'https://inspiring-aryabhata-e16a11.netlify.app/#/swap/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.veganswap.finance/#/pool',
+        href: 'https://inspiring-aryabhata-e16a11.netlify.app/#/pool',
       },
     ],
   },
@@ -48,29 +48,21 @@ const config: MenuEntry[] = [
   {
     label: 'Price Chart',
     icon: 'ChartIcon',
-    href: '/chart',
+    href: '/',
   },
+
+ 
   {
-    label: 'Audits',
-    icon: 'AuditIcon',
-    items: [
-      {
-        label: 'Techrate',
-        href: 'https://veganswap.finance/files/techrateAudit.pdf',
-      },
-    ],
-  },
-  {
-    label: 'Our Partners',
+    label: 'Our Social',
     icon: 'GroupsIcon',
     items: [
       {
-        label: 'Whirl Finance',
-        href: 'https://www.whirl-finance.com/',
+        label: "Telegram",
+        href: 'https://t.me/multichainfin/',
       },
       {
-        label: 'FlashX Ultra',
-        href: 'https://www.flashxcoinofficial.com/'
+        label: 'Twitter',
+        href: 'https://twitter.com/multichainfin'
       }
     ],
   },
@@ -79,13 +71,10 @@ const config: MenuEntry[] = [
     icon: 'ListingIcon',
     items: [
       {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/vegan-swap',
+        label: 'Pancakeswap-coming soon',
+        href: '',
       },
-      {
-        label: 'Blockfolio',
-        href: 'https://blockfolio.com/coin/VEGAN',
-      },
+      
     ],
   },
   {
@@ -94,11 +83,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Roadmap',
-        href: 'https://vegandefi.medium.com/vegan-swap-roadmap-94d69f7653b',
+        href: '/',
       },
       {
-        label: 'Overview',
-        href: 'https://pancakeswap.info/token/0x901e58695306b5c33c5169334e921a4cf4841571',
+        label: 'PreSale',
+        href: '/',
       },
       // {
       //   label: 'CoinGecko',
@@ -120,7 +109,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/veganswap-defi/',
+        href: 'https://github.com/MultiChain97//',
       },
       // {
       //   label: 'Docs',
@@ -128,7 +117,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Blog',
-        href: 'https://vegandefi.medium.com/',
+        href: '/',
       },
     ],
   },
